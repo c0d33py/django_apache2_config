@@ -3,11 +3,13 @@
 
 **Apache2 server configrations for private linux servers**
 
-**enable site-availible**
+`$ sudo apt-get install apache2`
 
 `$ cd /etc/apache2/sites-available/`
 
 `$ ls`
 
-`$ sudo cp 000-default.conf django_project.conf`
+**enable site-availible**
+
+`$ sudo cp 000-default.conf django_apache2_enable.conf`
 
