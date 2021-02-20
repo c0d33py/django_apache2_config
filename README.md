@@ -14,3 +14,11 @@
 `$ sudo cp 000-default.conf django_apache2_enable.conf`
 
 `$ sudo a2enmod wsgi`
+
+**add inside wsgi.py**
+
+```
+import sys
+
+sys.path.append('/home/YOURNAME/PROJECT/server')
+```
