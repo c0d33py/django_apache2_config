@@ -1,0 +1,1 @@
+# django_apache2_config
