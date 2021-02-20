@@ -5,6 +5,8 @@
 
 `$ sudo apt-get install apache2`
 
+`$ sudo apt-get install libapache2-mod-wsgi-py3`
+
 `$ cd /etc/apache2/sites-available/`
 
 `$ ls`
