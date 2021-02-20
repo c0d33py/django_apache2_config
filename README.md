@@ -11,7 +11,6 @@
 
 `$ ls`
 
-**enable site-availible**
-
 `$ sudo cp 000-default.conf django_apache2_enable.conf`
 
+`$ sudo a2enmod wsgi`
