@@ -1,0 +1,11 @@
+sudo apt-get update
+sudo apt-get install software-properties-common
+sudo apt-get install python-certbot-apache
+
+sudo certbot --apache
+
+sudo certbot renew --dry-run
+
+add **ServerName** in old django-enable.conf
+
+remove django configrations from old django-enable.conf 
