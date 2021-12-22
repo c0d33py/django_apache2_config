@@ -17,3 +17,7 @@
 # \q
 
 # exit
+
+Delete database
+
+# DROP DATABASE [IF EXISTS] database_name;
